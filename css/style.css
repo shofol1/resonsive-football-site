@@ -34,8 +34,6 @@ body {
     align-items: center;
 }
 
-.left-banner {}
-
 .left-banner h1 {
     font-size: 64px;
     line-height: 80px;
@@ -167,4 +165,57 @@ footer .top img {
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
+}
+
+
+/* responsive for mobile */
+
+@media only screen and (max-width:688px) {
+    .banner {
+        flex-direction: column;
+    }
+    .left-banner h1 {
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .right-banner {
+        padding-left: 0;
+    }
+    .right-banner img {
+        width: 329px;
+        height: 260px;
+        padding-top: 50px;
+    }
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    .left-highlight {
+        padding: 0;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    .left-highlight h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .left-highlight p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #6C6C6C;
+        font-weight: 400;
+    }
+    .right-highlight img {
+        width: 328px;
+        height: 248px;
+        padding-top: 29px;
+    }
+    .desktop-logo {
+        width: 300px!important;
+        height: 80px!important;
+    }
 }
