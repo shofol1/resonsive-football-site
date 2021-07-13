@@ -196,8 +196,8 @@ footer .top img {
     }
     .left-highlight {
         padding: 0;
-        padding-left: 40px;
-        padding-right: 10px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
     .left-highlight h1 {
         font-size: 30px;
@@ -217,5 +217,49 @@ footer .top img {
     .desktop-logo {
         width: 300px!important;
         height: 80px!important;
+    }
+}
+
+
+/* responsive for tablet */
+
+@media only screen and (min-width:688px) and (max-width:931px) {
+    .left-banner {
+        padding-left: 40px;
+    }
+    .left-banner h1 {
+        font-size: 56px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .right-banner {
+        padding-left: 30px;
+    }
+    .right-banner img {
+        width: 429px;
+        height: 360px;
+        padding-top: 50px;
+    }
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .left-highlight {
+        padding: 0;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .left-highlight h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .left-highlight p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #6C6C6C;
+        font-weight: 400;
+    }
+    .right-highlight img {
+        width: 328px;
+        height: 248px;
     }
 }
