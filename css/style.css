@@ -264,6 +264,7 @@
                 .highlights {
                     flex-direction: column;
                     margin-top: 60px;
+                    padding: 30px;
                 }
                 .left-highlight {
                     padding: 0;
@@ -318,7 +319,7 @@
                     flex-direction: column;
                     background-color: black;
                     margin: 40px 0;
-                    padding: 100px 0;
+                    padding: 100px 40;
                 }
                 .newlatter h1 {
                     font-size: 30px;
