@@ -12,6 +12,11 @@
                 color: #fff;
             }
             
+            .btn1:hover {
+                background-color: blue;
+                transition: .4s;
+            }
+            
             .fa-arrow-right {
                 margin-left: 4px;
                 font-size: 12px;
